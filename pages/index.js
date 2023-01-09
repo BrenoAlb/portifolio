@@ -254,7 +254,7 @@ export default function Home() {
                   Social Network
                   </div>
                   <p className="text-gray-700 text-base">
-                    Feita para praticar consumo de API's 
+                    Feita para praticar consumo de API&apos;s 
                   </p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
