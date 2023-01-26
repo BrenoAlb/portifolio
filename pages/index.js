@@ -152,6 +152,40 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+              <a
+                href="https://rpg-game-zeta.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className=" text-gray-800 bg-slate-200 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
+                  <img
+                    className="w-full"
+                    src="/rpg.png"
+                    alt="rpg"
+                  ></img>
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">
+                      RPG Game
+                    </div>
+                    <p className="text-gray-700 text-base">
+                      Jogo estilo RPG, feito em Typescript e React para praticar conceitos mais aprofundados e buscando fazer um jogo interativo. Ainda não concluido
+                    </p>
+                  </div>
+                  <div className="px-6 pt-4 pb-2">
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      React Hooks
+                    </span>
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      React.js
+                    </span>
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      Typescript
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1 ">
             <a href="https://jubilant-journey-21eccdef.pages.github.io/" target="_blank" rel="noreferrer">
               <div className=" text-gray-800 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
                 <img 
