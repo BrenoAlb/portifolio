@@ -185,6 +185,74 @@ export default function Home() {
                 </div>
               </a>
             </div>
+<div className="basis-1/3 flex-1 ">
+              <a
+                href="https://rpg-game-zeta.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className=" text-gray-800 bg-slate-200 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
+                  <img
+                    className="w-full"
+                    src="/Banco.png"
+                    alt="Banco"
+                  ></img>
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">
+                      Banco
+                    </div>
+                    <p className="text-gray-700 text-base">
+                      Site de banco mostrando o resumo financeiro feito durante o curso na Kenzie Academy
+                    </p>
+                  </div>
+                  <div className="px-6 pt-4 pb-2">
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      CSS
+                    </span>
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      React.js
+                    </span>
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      Javascript
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+<div className="basis-1/3 flex-1 ">
+              <a
+                href="https://rpg-game-zeta.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className=" text-gray-800 bg-slate-200 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
+                  <img
+                    className="w-full"
+                    src="/Hub.png"
+                    alt="Hub"
+                  ></img>
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">
+                      Hub
+                    </div>
+                    <p className="text-gray-700 text-base">
+                      Hub de cadastro feita durante o curso da kenzie academy
+                    </p>
+                  </div>
+                  <div className="px-6 pt-4 pb-2">
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      CSS
+                    </span>
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      React.js
+                    </span>
+                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
+                      Javascript
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
             <div className="basis-1/3 flex-1 ">
             <a href="https://jubilant-journey-21eccdef.pages.github.io/" target="_blank" rel="noreferrer">
               <div className=" text-gray-800 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
