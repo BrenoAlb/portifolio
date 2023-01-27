@@ -187,7 +187,7 @@ export default function Home() {
             </div>
 <div className="basis-1/3 flex-1 ">
               <a
-                href="https://rpg-game-zeta.vercel.app/"
+                href="https://react-entrega-s1-nu-kenzie-breno-alb.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -221,7 +221,7 @@ export default function Home() {
             </div>
 <div className="basis-1/3 flex-1 ">
               <a
-                href="https://rpg-game-zeta.vercel.app/"
+                href="https://react-entrega-kenzie-hub-brenoalb.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
