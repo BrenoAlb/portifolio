@@ -2,7 +2,7 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
-import Image from 'next/image'
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,17 +20,10 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-between dark:text-slate-200">
             <h1 className="font-burtons text-xl">
               {" "}
-              Javascript | Typescript | React.js | Next.js{" "}
+              Javascript | Typescript | React.js
             </h1>
 
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
-                />
-              </li>
-            </ul>
+          
           </nav>
 
           <div className="text-center p-10 py-10">
@@ -43,10 +36,10 @@ export default function Home() {
             </h3>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://github.com/BrenoAlb">
+              <a href="https://github.com/BrenoAlb" target="blank">
                 <AiFillGithub />
               </a>
-              <a href="https://www.linkedin.com/in/brenoalberto/">
+              <a href="https://www.linkedin.com/in/brenoalberto/"target="blank">
                 <AiFillLinkedin />
               </a>
               <a href="mailto:breno.alberto.de.almeida@gmail.com?subject=ContatopeloPortifólio&body=Olá Breno, vi seu portifólio e estou entrando em contato para falar sobre...">
@@ -54,7 +47,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="mx-auto bg-gradient-to-t from-cyan-600 to-transparent rounded-none w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96"></div>
+            <div className="mx-auto my-auto bg-gradient-to-t from-cyan-600 to-transparent rounded-none w-80 h-80 relative overflow-hidden mt-20 md:h-100 md:w-96"></div>
 
             <h3 className="text-teal-600 text-4xl pb-4 pt-9 dark:text-teal-500 md:text-4xl">
               Minha breve história
@@ -70,9 +63,7 @@ export default function Home() {
             </p>
 
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-200 max-w-xl mx-auto md:text-xl">
-              Após ter que parar minha faculdade devido a minha saúde (sem
-              muitos detalhes mas algumas glândulas pararam de funcionar direito
-              e gerou algumas complicações), ficava pensando o que faria, já que
+              Após ter que parar minha faculdade devido a minha saúde , ficava pensando o que faria, já que
               queria uma graduação.
             </p>
 
@@ -93,8 +84,7 @@ export default function Home() {
             </p>
 
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-200 max-w-xl mx-auto md:text-xl">
-              Pretendo ainda fazer uma graduação, agora focado em software,
-              assim que estiver trabalhando na área. Gosto de aprender e
+              Estudo Engenharia de Software atualmente. Gosto de aprender e
               naturalmente gosto de feedbacks e dicas, escutar pra mim é muito
               importante, por isso estou sempre aberto a quem interessar o
               contato.
@@ -122,14 +112,14 @@ export default function Home() {
               <p className="text-gray-800 py-1">React.js</p>
               <p className="text-gray-800 py-1">Next.js</p>
               <p className="text-gray-800 py-1">TailwindCss</p>
-              <p className="text-gray-800 py-1">jQuery</p>
+              
             </div>
             <div className="text-center shadow-lg p-5  my-10 dark:bg-slate-200 flex-1">
               <h3 className="text-2xl pt-0,5 pb-6 text-teal-600">Idiomas</h3>
               <p className="text-gray-800 py-1">Português</p>
               <p className="text-gray-800 py-1">Inglês </p>
               <p className="text-gray-800 py-1">Espanhol</p>
-              <p className="text-gray-800 py-1">Pensando no próximo...</p>
+              
             </div>
           </div>
         </section>
@@ -150,42 +140,9 @@ export default function Home() {
               sobre algum deles, inclusive sugestões de melhoria!
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              <a
-                href="https://rpg-game-zeta.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className=" text-gray-800 bg-slate-200 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
-                  <img
-                    className="w-full"
-                    src="/rpg.png"
-                    alt="rpg"
-                  ></img>
-                  <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">
-                      RPG Game
-                    </div>
-                    <p className="text-gray-700 text-base">
-                      Jogo estilo RPG, feito em Typescript e React para praticar conceitos mais aprofundados e buscando fazer um jogo interativo. Ainda não concluido
-                    </p>
-                  </div>
-                  <div className="px-6 pt-4 pb-2">
-                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
-                      React Hooks
-                    </span>
-                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
-                      React.js
-                    </span>
-                    <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
-                      Typescript
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-<div className="basis-1/3 flex-1 ">
+          </section>
+          <div className=" flex justify-center flex-col gap-20  lg:flex-row lg:flex-wrap">
+          <div className="basis-1/3 flex-1 ">
               <a
                 href="https://react-entrega-s1-nu-kenzie-breno-alb.vercel.app/"
                 target="_blank"
@@ -218,8 +175,8 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-            </div>
-<div className="basis-1/3 flex-1 ">
+          </div>
+          <div className="basis-1/3 flex-1 ">
               <a
                 href="https://react-entrega-kenzie-hub-brenoalb.vercel.app/"
                 target="_blank"
@@ -254,7 +211,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1 ">
-            <a href="https://jubilant-journey-21eccdef.pages.github.io/" target="_blank" rel="noreferrer">
+            <a href="https://brenoalb.github.io/Narumi-ecommerce/" target="_blank" rel="noreferrer">
               <div className=" text-gray-800 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
                 <img 
                   className="w-full"
@@ -283,11 +240,12 @@ export default function Home() {
               </div>
               </a>
             </div>
-            <a href="rpg-game-zeta.vercel.app" target="_blank" rel="noreferrer">
+            <div className="basis-1/3 flex-1">
+            <a href="https://rpg-game-zeta.vercel.app/" target="_blank" rel="noreferrer">
               <div className=" text-gray-800 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
                 <img 
                   className="w-full"
-                  src="/mapaRPG.png"
+                  src="/rpg.png"
                   alt="RPG"
                 ></img> 
                 <div className="px-6 py-4">
@@ -312,36 +270,7 @@ export default function Home() {
               </div>
               </a>
             </div>        
-            <div className="basis-1/3 flex-1">
-            <a href="https://animated-fortnight-d612eca8.pages.github.io/" target="_blank" rel="noreferrer">
-              <div className=" text-gray-800 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
-                <img
-                  className="w-full"
-                  src="/MiniMarket.png"
-                  alt="MiniMarket"
-                ></img>
-                <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
-                    Mercado
-                  </div>
-                  <p className="text-gray-700 text-base">
-                    Mercado básico feito em Javascript Vanilla
-                  </p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
-                    HTLM5
-                  </span>
-                  <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
-                    CSS3
-                  </span>
-                  <span className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">
-                    Javascript Vanilla
-                  </span>
-                </div>
-              </div>
-              </a>
-            </div>
+            
             <div className="basis-1/3 flex-1">
               <a href="https://brenoalb.github.io/LoginPage/" target="_blank"  rel="noreferrer">
               <div className=" text-gray-800 dark:bg-slate-200 max-w-sm rounded-x1 overflow-hidden shadow-lg hover:scale-110 transition duration-300 ease-in-out">
@@ -461,9 +390,11 @@ export default function Home() {
                 </div>
               </div>
               </a>
-            </div>   
-          </div>
-        </section>
+            </div>  
+            </div> 
+          
+          
+        
       </main>
     </div>
   );
